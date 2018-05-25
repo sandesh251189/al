@@ -1,42 +1,58 @@
 .how_digi_we .inner_how_difi_we{position:relative;overflow: hidden;}
 .how_digi_we .right-grid{width:calc(50% + 200px);height:100%;background:url('../img/how-digi-2-bg.png');background-position: center;background-size: cover;position: absolute;right:0;float:right;}
-.how_digi_we .left-grid{width:calc(50% - 200px);background:#a8b7be;padding:225px 80px;float: left;position: relative;}
+.how_digi_we .left-grid{width:calc(50% - 200px);background:#a8b7be;padding:267px 80px;float: left;position: relative;}
 .how_digi_are_we_content{width:90%;position: absolute;z-index: 1000;top:20%;left:200px}
-.how_digi_are_we_title{border:solid 3px #fff;padding:0px 20px;}
-.how_digi_are_we_title h3{margin:0;color:#2f576b;text-transform: uppercase;font-size:59px;line-height:70px;}
+.how_digi_are_we_title{border:solid 1px #fff;padding:0px 20px;}
+.how_digi_are_we_title h3{margin:0;color:#2f576b;text-transform: uppercase;font-size:58px;line-height:70px;}
 .how_digi_are_we_content a{background:#fff;text-transform: uppercase;margin-top:50px;padding:15px 30px;display:inline-block;font-size:18px;text-decoration: none;}
+
+.women_in_digi .inner_women_in_digi{position:relative;overflow: hidden;}
+.women_in_digi .left-grid{width:calc(50% + 200px);height:100%;background:url('../img/wioman-in-digital.png');background-position: center;background-size: cover;position: absolute;left:0;float:left;}
+.women_in_digi .right-grid{width:calc(50% - 200px);background:#ffe1d2;padding:315px 80px;float: right;position: relative;}
+.women_in_digi_content{z-index: 1000;top:20%;right:112px;position: absolute;width:117%;}
+.women_in_digi_title{padding:0px 20px}
+.women_in_digi_title h3{margin:0;color:#bf165e;text-transform: uppercase;font-size:59px;line-height:70px;}
+.women_in_digi_content p{padding-left:100px;}
+
+
+
+
+
 @media (min-width: 320px) {
   .how_digi_we .inner_how_difi_we{overflow:inherit;}
   .how_digi_we .right-grid{width:100%;height:200px;float:none;padding:10px;}
   .how_digi_we .left-grid{width:100%;height:200px;float:none;padding:20px;}
-  .how_digi_are_we_content{width:100%;position: relative;left:0;top:0;}
+  .how_digi_are_we_content{position: relative;left:0;top:0;}
   .how_digi_are_we_title{border:none;padding:0px 20px;}
   .how_digi_are_we_title h3{font-size:30px;text-align:center;line-height:50px;}
   .how_digi_are_we_content a{background:#fff;margin-top:10px;padding:10px 20px;font-size:12px;display:block;width:115px;margin:10px auto 0 auto;}
 }
 @media (min-width: 768px) {
-.how_digi_are_we_content{width:90%;top:25%;left:100px}
-.how_digi_are_we_title{padding:0px 10px;}
-.how_digi_we .left-grid{padding:140px 80px;width:calc(50% - 100px)}
-.how_digi_we .right-grid{width:calc(50% + 100px)}
-.how_digi_are_we_title h3{font-size:30px;line-height:40px;padding:20px 10px}
+.how_digi_we .inner_how_difi_we{position:relative;overflow: hidden;}
+.how_digi_are_we_content{position: absolute;z-index: 1000;top:20%;left:70px}
+.how_digi_are_we_title{border:solid 1px #fff;padding:10px;}
+.how_digi_we .right-grid{width:calc(50% + 100px);height:100%;background:url('../img/how-digi-1024-bg.png');background-position: center;background-size: cover;position: absolute;right:0;float:right;}
+.how_digi_we .left-grid{width:calc(50% - 100px);background:#a8b7be;padding:140px 80px;float: left;position: relative;}
+.how_digi_are_we_title h3{padding:10px;text-align:left;font-size:32px;line-height:40px;padding:5px 10px}
 .how_digi_are_we_content a{background:#fff;text-transform: uppercase;margin-top:10px;padding:10px 20px;display:inline-block;font-size:12px;text-decoration: none;}
 }
 @media (min-width: 992px) {
   .how_digi_we .inner_how_difi_we{position:relative;overflow: hidden;}
-  .how_digi_are_we_content{width:100%;top:30%}
-  .how_digi_are_we_title h3{color:#2f576b;text-transform: uppercase;font-size:40px;line-height:50px;}
-  .how_digi_we .right-grid{width:calc(50% + 100px);height:100%;background:url('../img/how-digi-1024-bg.png');background-position: center;background-size: cover;position: absolute;right:0;float:right;}
-  .how_digi_we .left-grid{width:calc(50% - 100px);background:#a8b7be;padding:193px 80px;float: left;position: relative;}
+  .how_digi_are_we_content{position: absolute;z-index: 1000;top:20%;left:106px}
+  .how_digi_are_we_title{border:solid 1px #fff;padding:20px;}
+  .how_digi_are_we_title h3{padding:0;text-align:left;color:#2f576b;text-transform: uppercase;font-size:43px;line-height:50px;}
+  .how_digi_we .right-grid{width:calc(50% + 150px);height:100%;background:url('../img/how-digi-1024-bg.png');background-position: center;background-size: cover;position: absolute;right:0;float:right;}
+  .how_digi_we .left-grid{width:calc(50% - 150px);background:#a8b7be;padding:208px 80px;float: left;position: relative;}
+  .how_digi_are_we_content a{background:#fff;text-transform: uppercase;margin-top:50px;padding:10px 25px;display:inline-block;font-size:15px;text-decoration: none;width:auto;}
 }
 
 @media (min-width: 1200px) {
   .how_digi_we .inner_how_difi_we{position:relative;overflow: hidden;}
   .how_digi_we .right-grid{width:calc(50% + 200px);height:100%;background:url('../img/how-digi-2-bg.png');background-position: center;background-size: cover;position: absolute;right:0;float:right;}
-  .how_digi_we .left-grid{width:calc(50% - 200px);background:#a8b7be;padding:225px 80px;float: left;position: relative;}
-  .how_digi_are_we_content{width:100%;position: absolute;z-index: 1000;top:20%;left:200px}
-  .how_digi_are_we_title{border:solid 3px #fff;padding:0px 20px;}
-  .how_digi_are_we_title h3{text-align:left;margin:0;color:#2f576b;text-transform: uppercase;font-size:59px;line-height:70px;}
+  .how_digi_we .left-grid{width:calc(50% - 200px);background:#a8b7be;padding:267px 80px;float: left;position: relative;}
+  .how_digi_are_we_content{position: absolute;z-index: 1000;top:20%;left:200px}
+  .how_digi_are_we_title{border:solid 1px #fff;padding:20px;}
+  .how_digi_are_we_title h3{padding:0;text-align:left;margin:0;color:#2f576b;text-transform: uppercase;font-size:58px;line-height:70px;}
   .how_digi_are_we_content a{background:#fff;text-transform: uppercase;margin-top:50px;padding:15px 30px;display:inline-block;font-size:18px;text-decoration: none;width:auto;}
 
 }
